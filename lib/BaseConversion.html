@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversion Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="base-converter">
+  <div class="page">
+    <h1>🔢 Conversion Calculator</h1>
+
+    <div class="converter">
+      <div class="input-group">
+        <label>From:</label>
+        <select id="fromType">
+          <option value="binary">Binary</option>
+          <option value="decimal">Decimal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+        <input type="text" id="inputValue" placeholder="Enter value">
+      </div>
+
+      <div class="input-group">
+        <label>To:</label>
+        <select id="toType">
+          <option value="binary">Binary</option>
+          <option value="decimal">Decimal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+        <input type="text" id="outputValue" placeholder="Converted value" readonly>
+      </div>
+    </div>
+
+    <a class="back-btn" href="ComputerScience.html">⬅ Back to Home</a>
+  </div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

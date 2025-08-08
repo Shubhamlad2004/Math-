@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IP Address Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ip-converter">
+  <div class="page">
+    <h1>🌐 IP Address Converter</h1>
+
+    <div class="converter">
+      <div class="input-group">
+        <label>From:</label>
+        <select id="ipFrom">
+          <option value="ipv4">IPv4</option>
+          <option value="decimal">Decimal</option>
+        </select>
+        <input type="text" id="ipInput" placeholder="Enter IP or Decimal">
+      </div>
+
+      <div class="input-group">
+        <label>To:</label>
+        <select id="ipTo">
+          <option value="decimal">Decimal</option>
+          <option value="ipv4">IPv4</option>
+        </select>
+        <input type="text" id="ipOutput" placeholder="Converted value" readonly>
+      </div>
+    </div>
+
+    <a class="back-btn" href="ComputerScience.html">⬅ Back to Home</a>
+  </div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
